@@ -19,5 +19,5 @@ I don't test environments under Mac.
  
 # License
  
-"Physics_Sim_Py" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"SC-TLI" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
  
