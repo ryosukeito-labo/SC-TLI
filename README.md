@@ -21,10 +21,12 @@ The repository will be updated and fully released upon acceptance.
 
 The SC-TLI method solves the following optimization problem:
 
-$P(\boldsymbol{\beta}) =
-\lambda_s \left( \alpha |\boldsymbol{\beta}|_1 + \frac{1-\alpha}{2}|\boldsymbol{\beta}|_2^2 \right)
+$$
+P(\boldsymbol{\beta}) =
+\lambda_s \left( \alpha |\boldsymbol{\beta}|_1 + \frac{1-\alpha}{2} \left|\boldsymbol{\beta}\right|_2^2 \right)
 +
-\lambda_t \sum{\mathcal{G}j} | (D\boldsymbol{\beta}){\mathcal{G}_j} |_2 $
+\lambda_t \sum_{\mathcal{G}_j} | (D\boldsymbol{\beta})_{\mathcal{G}_j} |_2
+$$
 
 * **Spatial regularization**: Elastic Net (L1 + L2)
 * **Temporal regularization**: Group Lasso on time differences
