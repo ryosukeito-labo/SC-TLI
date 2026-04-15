@@ -21,8 +21,6 @@ The repository will be updated and fully released upon acceptance.
 
 The SC-TLI method solves the following optimization problem:
 
-```md
-```text
 P(β) =
 λ_s ( α ||β||_1 + (1-α)/2 ||β||_2^2 )
 +
