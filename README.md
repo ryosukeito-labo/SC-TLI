@@ -45,19 +45,19 @@ This formulation enables:
 ```
 SC-TLI/
 │
-├── Src/                 # Core Python implementations (forward & inversion)
-│   ├── Forward/
-│   ├── Inversion/
-├── Examples/            # Jupyter notebooks for synthetic experiments (4 cases)
-│   ├── Case_1_1/
-│   ├── Case_1_2/
-│   ├── Case_2_1/
-│   └── Case_2_2/
-├── Models/              # Synthetic model datasets for synthetic experiments (4 cases)
-│   ├── Case_1_1/
-│   ├── Case_1_2/
-│   ├── Case_2_1/
-│   └── Case_2_2/
+├── src/                 # Core Python implementations (forward & inversion)
+│   ├── forward/
+│   ├── inversion/
+├── examples/            # Jupyter notebooks for synthetic experiments (4 cases)
+│   ├── case_1_1/
+│   ├── case_1_2/
+│   ├── case_2_1/
+│   └── case_2_2/
+├── models/              # Synthetic model datasets for synthetic experiments (4 cases)
+│   ├── case_1_1/
+│   ├── case_1_2/
+│   ├── case_2_1/
+│   └── case_2_2/
 └── README.md
 
 ```
@@ -65,15 +65,26 @@ SC-TLI/
 ---
 ## ▶️ How to Run
 
-1. Clone or download this repository:
+1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/your-username/SC-TLI.git
-   ```
+```bash
+git clone https://github.com/your-username/SC-TLI.git
+cd SC-TLI
+```
 
-2. Open the Jupyter Notebook files (`.ipynb`)
+2. Install the required packages:
 
-3. Run the notebooks in a Python environment
+```bash
+pip install -r requirements.txt
+```
+
+3. Launch Jupyter Notebook from the repository root:
+
+```bash
+jupyter notebook
+```
+
+4. Open and run the notebooks in the `Examples/` directory.
 
 ---
 
@@ -98,6 +109,7 @@ SC-TLI/
 
 ## ⚠️ Notes
 
+* Please run notebooks from the repository root directory.
 * This code has primarily been tested in a Linux-based Python environment.
 * Compatibility with macOS has not been fully verified.
 * Large-scale problems may require significant memory and computational resources.
