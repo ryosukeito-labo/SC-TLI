@@ -73,6 +73,7 @@ SC-TLI/
 
 2. Open the Jupyter Notebook files (`.ipynb`)
 
+
 3. Run the notebooks in a Python environment
 
 ---
@@ -98,6 +99,7 @@ SC-TLI/
 
 ## ⚠️ Notes
 
+* Please run notebooks from the repository root directory.
 * This code has primarily been tested in a Linux-based Python environment.
 * Compatibility with macOS has not been fully verified.
 * Large-scale problems may require significant memory and computational resources.
