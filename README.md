@@ -65,16 +65,26 @@ SC-TLI/
 ---
 ## ▶️ How to Run
 
-1. Clone or download this repository:
+1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/your-username/SC-TLI.git
-   ```
+```bash
+git clone https://github.com/your-username/SC-TLI.git
+cd SC-TLI
+```
 
-2. Open the Jupyter Notebook files (`.ipynb`)
+2. Install the required packages:
 
+```bash
+pip install -r requirements.txt
+```
 
-3. Run the notebooks in a Python environment
+3. Launch Jupyter Notebook from the repository root:
+
+```bash
+jupyter notebook
+```
+
+4. Open and run the notebooks in the `Examples/` directory.
 
 ---
 
