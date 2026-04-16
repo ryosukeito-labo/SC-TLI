@@ -107,8 +107,8 @@ SC-TLI/
 ## ✍️ Author
 
 * **Ryosuke Ito**
-  Institute for Geothermal Sciences
-  Graduate School of Science
+  Institute for Geothermal Sciences,
+  Graduate School of Science,
   Kyoto University
 
 ---
