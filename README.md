@@ -59,6 +59,7 @@ SC-TLI/
 │   ├── case_2_1/
 │   └── case_2_2/
 └── README.md
+└── requirements.md
 
 ```
 
@@ -90,8 +91,8 @@ jupyter notebook
 
 ## 🧪 Experiments
 
-* The `Examples/` directory contains **4 synthetic model experiments** used in the manuscript.
-* The `Models/` directory contains all estimated models.
+* The `examples/` directory contains **4 synthetic model experiments** used in the manuscript.
+* The `models/` directory contains all estimated models.
 
 ---
 
