@@ -45,19 +45,19 @@ This formulation enables:
 ```
 SC-TLI/
 │
-├── Src/                 # Core Python implementations (forward & inversion)
-│   ├── Forward/
-│   ├── Inversion/
-├── Examples/            # Jupyter notebooks for synthetic experiments (4 cases)
-│   ├── Case_1_1/
-│   ├── Case_1_2/
-│   ├── Case_2_1/
-│   └── Case_2_2/
-├── Models/              # Synthetic model datasets for synthetic experiments (4 cases)
-│   ├── Case_1_1/
-│   ├── Case_1_2/
-│   ├── Case_2_1/
-│   └── Case_2_2/
+├── src/                 # Core Python implementations (forward & inversion)
+│   ├── forward/
+│   ├── inversion/
+├── examples/            # Jupyter notebooks for synthetic experiments (4 cases)
+│   ├── case_1_1/
+│   ├── case_1_2/
+│   ├── case_2_1/
+│   └── case_2_2/
+├── models/              # Synthetic model datasets for synthetic experiments (4 cases)
+│   ├── case_1_1/
+│   ├── case_1_2/
+│   ├── case_2_1/
+│   └── case_2_2/
 └── README.md
 
 ```
