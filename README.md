@@ -22,8 +22,8 @@ The repository will be updated and fully released upon acceptance.
 The SC-TLI method solves the following optimization problem:
 
 $$
-P(\boldsymbol{\beta}) =
-\lambda_s \left( \alpha \left\| \boldsymbol{\beta} \right\|_1 + \frac{1-\alpha}{2} \left\| \boldsymbol{\beta} \right\|_2^2 \right)
+P(\mathbf{\beta}) =
+\lambda_s \left( \alpha \left\| \mathbf{\beta} \right\|_1 + \frac{1-\alpha}{2} \left\| \boldsymbol{\beta} \right\|_2^2 \right)
 +
 \lambda_t \sum_{\mathcal{G}_j} \left\| (D\boldsymbol{\beta})_{\mathcal{G}_j} \right\|_2
 $$
