@@ -23,9 +23,9 @@ The SC-TLI method solves the following optimization problem:
 
 $$
 P(\mathbf{\beta}) =
-\lambda_s \left( \alpha \left\| \mathbf{\beta} \right\|_1 + \frac{1-\alpha}{2} \left\| \boldsymbol{\beta} \right\|_2^2 \right)
+\lambda_s \left( \alpha \left\| \mathbf{\beta} \right\|_1 + \frac{1-\alpha}{2} \left\| \mathbf{\beta} \right\|_2^2 \right)
 +
-\lambda_t \sum_{\mathcal{G}_j} \left\| (D\boldsymbol{\beta})_{\mathcal{G}_j} \right\|_2
+\lambda_t \sum_{\mathcal{G}_j} \left\| (\mathbf{D} \mathbf{\beta})_{\mathcal{G}_j} \right\|_2
 $$
 
 * **Spatial regularization**: L1-L2 penalty (Utsugi, 2019; Ito and Utsugi, 2025)
