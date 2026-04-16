@@ -45,14 +45,23 @@ This formulation enables:
 ```
 SC-TLI/
 │
-├── *.ipynb              # Jupyter notebooks for synthetic experiments (12 cases)
-├── Models/              # Synthetic model datasets used in the paper
-├── *.py                 # Core Python implementations (forward & inversion)
+├── Src/                 # Core Python implementations (forward & inversion)
+│   ├── Forward/
+│   ├── Inversion/
+├── Examples/            # Jupyter notebooks for synthetic experiments (4 cases)
+│   ├── Case_1_1/
+│   ├── Case_1_2/
+│   ├── Case_2_1/
+│   └── Case_2_2/
+├── Models/              # Synthetic model datasets for synthetic experiments (4 cases)
+│   ├── Case_1_1/
+│   ├── Case_1_2/
+│   ├── Case_2_1/
+│   └── Case_2_2/
 └── README.md
-```
-
 ---
 
+---
 ## ▶️ How to Run
 
 1. Clone or download this repository:
@@ -69,9 +78,8 @@ SC-TLI/
 
 ## 🧪 Experiments
 
-* The repository includes **12 synthetic model experiments** used in the manuscript.
-* Each notebook reproduces results corresponding to figures and tables in the paper.
-* The `Models/` directory contains all required input models.
+* The `Examples/` directory contains **4 synthetic model experiments** used in the manuscript.
+* The `Models/` directory contains all estimated models.
 
 ---
 
