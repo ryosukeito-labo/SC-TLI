@@ -1,5 +1,5 @@
 import numpy as np
-import magcal
+from . import magcal
 
 def thread_func(p0, p1, mgz,
                 xobs, yobs, zobs,
