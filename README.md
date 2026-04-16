@@ -53,11 +53,6 @@ SC-TLI/
 │   ├── case_1_2/
 │   ├── case_2_1/
 │   └── case_2_2/
-├── models/              # Synthetic model datasets for synthetic experiments (4 cases)
-│   ├── case_1_1/
-│   ├── case_1_2/
-│   ├── case_2_1/
-│   └── case_2_2/
 ├── README.md
 └── requirements.md
 
