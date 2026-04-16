@@ -80,14 +80,13 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-4. Open and run the notebooks in the `Examples/` directory.
+4. Open and run the notebooks in the `examples/` directory.
 
 ---
 
 ## 🧪 Experiments
 
 * The `examples/` directory contains **4 synthetic model experiments** used in the manuscript.
-* The `models/` directory contains all estimated models.
 
 ---
 
