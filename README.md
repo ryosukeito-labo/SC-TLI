@@ -58,7 +58,7 @@ SC-TLI/
 │   ├── case_1_2/
 │   ├── case_2_1/
 │   └── case_2_2/
-└── README.md
+├── README.md
 └── requirements.md
 
 ```
