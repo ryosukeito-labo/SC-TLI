@@ -53,12 +53,8 @@ SC-TLI/
 │   ├── case_1_2/
 │   ├── case_2_1/
 │   └── case_2_2/
-├── models/              # Synthetic model datasets for synthetic experiments (4 cases)
-│   ├── case_1_1/
-│   ├── case_1_2/
-│   ├── case_2_1/
-│   └── case_2_2/
-└── README.md
+├── README.md
+└── requirements.md
 
 ```
 
@@ -84,14 +80,13 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-4. Open and run the notebooks in the `Examples/` directory.
+4. Open and run the notebooks in the `examples/` directory.
 
 ---
 
 ## 🧪 Experiments
 
-* The `Examples/` directory contains **4 synthetic model experiments** used in the manuscript.
-* The `Models/` directory contains all estimated models.
+* The `examples/` directory contains **4 synthetic model experiments** used in the manuscript.
 
 ---
 
