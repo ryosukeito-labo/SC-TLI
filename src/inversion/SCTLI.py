@@ -124,13 +124,13 @@ class ADMMGroupLasso:
             beta_prev = self.beta_.copy()
 
             p = (
-                X.T @ f
+                X.T.dot(f)
                 + self.rho * (self.s_ + self.u_)
-                + self.eta * (D.T @ (self.t_ + self.v_))
+                + self.eta * D.T * (self.t_ + self.v_)
             )
 
-            tmp = X @ (inv1 @ p)
-            self.beta_ = inv1 @ p - inv1 @ (X.T @ (inv2 @ tmp))
+            tmp = np.dot(X, inv1 * p)
+            self.beta_ = inv1 * p - inv1 * np.dot(X.T, np.dot(inv2, tmp))
 
             # ---------------------
             # s-update (Elastic Net)
@@ -156,10 +156,10 @@ class ADMMGroupLasso:
             r = np.zeros(num_of_cells)
 
             for j in range(times - 1):
-                block = q[j * num_of_cells:(j + 1) * num_of_cells]
-                r += block**2
+                block = np.power(q[j*num_of_cells:(j+1)*num_of_cells], 2)
+                r += block
 
-            r = np.tile(r, times - 1)
+            r = np.tile(np.sqrt(r), times-1)
 
             # Group shrinkage
             shrink = np.maximum(1.0 - self.lambda_t / (self.rho * r), 0.0)
