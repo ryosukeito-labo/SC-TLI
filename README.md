@@ -117,6 +117,8 @@ jupyter notebook
   Institute for Geothermal Sciences,
   Graduate School of Science,
   Kyoto University
+  
+  Email: ito.ryosuke.22n [at] st.kyoto-u.ac.jp
 
 ---
 
