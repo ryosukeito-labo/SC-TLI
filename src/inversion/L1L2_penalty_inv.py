@@ -242,7 +242,10 @@ class L1L2:
                 y_prev = self.y_.copy()
 
                 if not self.fit_intercept:
-                    self.y_ = np.maximum(self.beta_ - self.u_, self.min_)
+                    self.y_ = self.y_ = np.maximum(
+                        self.min_ * w,
+                        np.minimum(self.beta_ - self.u_, self.max_ * w)
+                    )
                 else:
                     self.y_ = np.maximum(
                         self.min_ * w,
